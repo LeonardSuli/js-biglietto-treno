@@ -1,12 +1,12 @@
 
 //chiedere all'utente i km che vuole percorrere
 
-const km = prompt('Quanti km vuoi percorrere?');
+const km = Number(prompt('Quanti km vuoi percorrere?'));
 console.log(km);
 
 //chiedere all'utente l'età
 
-const età = prompt('Quanti anni hai?');
+const età = Number(prompt('Quanti anni hai?'));
 console.log(età);
 
 
